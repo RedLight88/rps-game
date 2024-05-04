@@ -1,6 +1,6 @@
 * {
     background-color: black;
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
     
 }
 .title {
@@ -22,13 +22,42 @@
     padding-right: 50px;
     border-radius: 10px;
     background-color: lightblue;
+    cursor: pointer;
+    border: none;
 }
 
 #score {
     color: white;
     font-size: 50px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
+    padding-left: 100px;
     padding-right: 100px;
+}
+
+.player {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 30px;
+}
+.player #playerChoice{
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    border: none;
+}
+#play {
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    border: none;
+}
+#computerChoice {
+    width: 200px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }

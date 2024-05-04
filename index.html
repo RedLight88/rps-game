@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RPS</title>
     <link rel="stylesheet" href="styles.css">
+   
 </head>
 <body>
     <h1 class="title">Please select number of rounds</h1>
@@ -15,10 +16,20 @@
         <button>10</button>
     </div>
     <div id="score">
-        <p>Total wins: </p>
-    </div>
-    <div>
+        <p id="win">Total wins: </p>
+        <p id="draw">Total draws: </p>
+        <p id="lose">Total losses: </p>
         
     </div>
+    <div class="player">
+        <select id="playerChoice">
+            <option value="rock">Rock</option>
+            <option value="paper">Paper</option>
+            <option value="scissors">Scissors</option>
+        </select>
+        <button id="play">Click to play</button>
+        <p id="computerChoice"></p>
+    </div>
+    <script src="logic.js"></script>
 </body>
 </html>
