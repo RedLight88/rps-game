@@ -45,5 +45,7 @@ function display(){
 document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('play').addEventListener('click', display);
     
+    const buttons = document.querySelectorAll('round');
+    
 });
 
